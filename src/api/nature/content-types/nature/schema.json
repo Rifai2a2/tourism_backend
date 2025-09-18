@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "natures",
+  "info": {
+    "singularName": "nature",
+    "pluralName": "natures",
+    "displayName": "nature"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

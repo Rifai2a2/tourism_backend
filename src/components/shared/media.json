@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_media",
+  "info": {
+    "displayName": "Media",
+    "icon": "file-video"
+  },
+  "options": {},
+  "attributes": {
+    "Description": {
+      "type": "string"
+    },
+    "culinary": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
